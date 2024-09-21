@@ -39,7 +39,7 @@ def point(x, y):
 # Function to draw 'T'
 def draw_T(x, y):
     positions_t = [(x, y+30), (x+6, y+30), (x+12, y+30), (x+18, y+30), (x+24, y+30),
-                   (x+12, y+30), (x+12, y+24), (x+12, y+18), (x+12, y+12), (x+12, y+6), (x+12, y)]
+                 (x+12, y+30), (x+12, y+24), (x+12, y+18), (x+12, y+12), (x+12, y+6), (x+12, y)]
 
     for pos in positions_t:
         point(*pos)
